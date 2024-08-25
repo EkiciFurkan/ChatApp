@@ -1,0 +1,40 @@
+﻿@page "/chat"
+@rendermode InteractiveWebAssembly
+@inherits ChatPageHome
+
+<PageTitle>Hub Chat</PageTitle>
+
+<div class="row">
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-header">
+                Chat
+            </div>
+            <div class="card-body">
+                <ul>
+                    @foreach (var message in Messages)
+                    {
+                        <li>@message</li>
+                    }
+                </ul>
+                <div class="border-primary">
+                    <div class="hstack gap-2">
+                        <input type="text" class="form-control" @bind="UserName" placeholder="Your Name"/>
+                        <textarea class="form-control" @bind="Message" placeholder="Type your message"></textarea>
+                    </div>
+                    <button class="btn btn-success" @onclick="SendMessage">Send Message</button>
+                </div>
+            </div>
+            <div class="card-footer">
+                @if (!IsConnected)
+                {
+                    <div class="alert alert-danger">Chat Disconnected</div>
+                }
+                else
+                {
+                    <div class="alert alert-success">Chat Connected</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
