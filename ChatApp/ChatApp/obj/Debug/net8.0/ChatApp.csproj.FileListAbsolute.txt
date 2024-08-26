@@ -64,3 +64,4 @@ C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp\obj\Debug\net8.0\refint\Ch
 C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp\obj\Debug\net8.0\ChatApp.pdb
 C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp\obj\Debug\net8.0\ChatApp.genruntimeconfig.cache
 C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp\obj\Debug\net8.0\ref\ChatApp.dll
+C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp\obj\Debug\net8.0\ChatApp.sourcelink.json

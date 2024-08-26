@@ -1066,3 +1066,4 @@ C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp.Client\obj\Debug\net8.0\Ch
 C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp.Client\obj\Debug\net8.0\refint\ChatApp.Client.dll
 C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp.Client\obj\Debug\net8.0\ChatApp.Client.pdb
 C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp.Client\obj\Debug\net8.0\ref\ChatApp.Client.dll
+C:\Users\Furkan\RiderProjects\ChatApp\ChatApp\ChatApp.Client\obj\Debug\net8.0\ChatApp.Client.sourcelink.json
